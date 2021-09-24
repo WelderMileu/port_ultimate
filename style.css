@@ -22,14 +22,13 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 	margin: auto 4%;
 }
 
 nav .logo {
 	display: flex;
 	align-items: center;
- 
+
  	padding-top: 40px;
 }
 
@@ -40,7 +39,8 @@ nav .logo span {
 
 nav .menu {
 	display: flex;
-	margin-right: 20%;
+	padding-top: 55px;
+	margin-left: 40%;
 }
 
 nav .menu li {
@@ -54,6 +54,22 @@ nav .menu li a {
 	font-weight: 300;
 }
 
+nav .sociais {
+	padding-top: 55px;
+	width: 150px;
+}
+
+nav .sociais ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+nav .sociais ul li a {
+	color: gray;
+	font-size: 1.8rem;
+}
 
 .banner {
 	position: relative;
@@ -61,7 +77,7 @@ nav .menu li a {
 }
 
 .banner h1 {
-	font-size: 5rem;
+	font-size: 4.5rem;
 	font-weight: 500;
 	max-width: 550px;
 }
@@ -97,6 +113,49 @@ nav .menu li a {
 
 .banner .my_photo img {
 	width: 800px;
+}
+
+.skills {
+	margin-top: 60px;
+}
+
+
+.skills .content_skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.skills .content_skills .item_skill {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: gray;
+}
+
+.skills .content_skills .item_skill .item_icon {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+	border: .1px solid gray;
+	padding: 10px;
+	border-radius: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.skills .content_skills .item_skill .item_icon i {
+	font-size: 3.5rem;	
+}
+
+.skills .content_skills .item_skill p {
+	font-weight: 400;
+	display: none;
 }
 
 .info {
