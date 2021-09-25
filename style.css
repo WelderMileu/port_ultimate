@@ -124,7 +124,6 @@ nav .sociais ul li a {
 	flex-direction: row;
 	justify-content: space-evenly;
 	padding-top: 40px;
-	padding-bottom: 40px;
 }
 
 .skills .content_skills .item_skill {
@@ -242,7 +241,14 @@ nav .sociais ul li a {
 .soft_skill .soft_content {
 	margin-top: 90px;
 	display: flex;
-	margin-bottom: 30px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.soft_skill .soft_content .ilustration {
+	position: relative;
 }
 
 .soft_skill .soft_content .ilustration img {
@@ -263,7 +269,7 @@ nav .sociais ul li a {
 .soft_skill .soft_content ul li i {
 	padding-right: 20px;
 	font-size: 1.5rem;
-	color:  #008cd8;
+	color:  gray;
 }
 
 .soft_skill .soft_content ul li p {
