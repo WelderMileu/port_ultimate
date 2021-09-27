@@ -134,11 +134,15 @@ nav .sociais ul li a {
 	color: gray;
 }
 
+.skills .content_skills .item_skill:nth-child(even) {
+	padding-bottom: 150px;
+}
+
 .skills .content_skills .item_skill .item_icon {
 	width: 100px;
 	height: 100px;
 	margin-bottom: 20px;
-	border: .1px solid gray;
+	border: 2px solid gray;
 	padding: 10px;
 	border-radius: 100%;
 
@@ -157,7 +161,7 @@ nav .sociais ul li a {
 }
 
 .info {
-	margin-top: 120px;
+	margin-top: 50px;
 }
 
 .info .info_title {
@@ -272,3 +276,57 @@ nav .sociais ul li a {
 .soft_skill .soft_content ul li p {
 	font-size: 1.2rem;
 }
+
+.projects {
+	margin-top: 120px;
+}
+
+.projects .swiper .swiper-wrapper .swiper-slide {
+	position: relative;	
+}
+
+.projects .swiper .swiper-wrapper .swiper-slide h3 {
+	position: absolute;	
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	font-weight: 500;
+	color: white;
+	font-size: 2rem;
+	text-shadow: 1px 1px 1px black;
+}
+
+.projects .swiper .swiper-wrapper .swiper-slide .actions {
+	position: absolute;	
+	width: 100%;
+	bottom: 30px;
+	padding: 0px 20px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.projects .swiper .swiper-wrapper .swiper-slide .actions button {
+	border: 2px solid white;
+	background-color: transparent;
+	color: white;
+	width: 75%;
+	height: 50px;
+	padding: 10px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	border-radius: 50px;
+}
+
+.projects .swiper .swiper-wrapper .swiper-slide .actions button:nth-child(2) {
+	width: 50px;
+	height: 50px;
+	font-size: 2rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
