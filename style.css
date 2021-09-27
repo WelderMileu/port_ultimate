@@ -281,6 +281,20 @@ nav .sociais ul li a {
 	margin-top: 120px;
 }
 
+.projects .title {
+	text-align: center;
+}
+
+.projects .title h1 {
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+.projects .title p {
+	margin-top: 10px;
+	font-size: 1.5rem;
+}
+
 .projects .swiper .swiper-wrapper .swiper-slide {
 	position: relative;	
 }
@@ -288,27 +302,34 @@ nav .sociais ul li a {
 .projects .swiper .swiper-wrapper .swiper-slide h3 {
 	position: absolute;	
 	width: 100%;
-	text-align: center;
-	margin-top: 40px;
-	font-weight: 500;
+	text-align: left;
+	margin-top: 200px;
+	font-weight: 400;
 	color: white;
-	font-size: 2rem;
-	text-shadow: 1px 1px 1px black;
+	font-size: 1.2rem;
+	z-index: 1000;
+	padding: 0px 20px;
 }
 
 .projects .swiper .swiper-wrapper .swiper-slide .actions {
 	position: absolute;	
 	width: 100%;
-	bottom: 30px;
+	height: 300px;
+	bottom: 0px;
 	padding: 0px 20px;
+	padding-top: 200px;
 
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	background: linear-gradient(transparent, black);
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 
 .projects .swiper .swiper-wrapper .swiper-slide .actions button {
-	border: 2px solid white;
+	border: 1px solid white;
 	background-color: transparent;
 	color: white;
 	width: 75%;
@@ -329,4 +350,33 @@ nav .sociais ul li a {
 	align-items: center;
 }
 
+.abaut {
+	margin-top: 120px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+}
+
+.abaut .content {
+	max-width: 400px;
+}
+
+.abaut img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+.abaut h3 {
+	font-size: 2rem;
+	margin-top: 60px;
+}
+
+.abaut p {
+	margin-top: 15px;
+}
 
