@@ -276,7 +276,7 @@ nav .sociais ul li a {
 	position: absolute;	
 	width: 100%;
 	text-align: left;
-	margin-top: 200px;
+	margin-top: 60px;
 	font-weight: 400;
 	color: white;
 	font-size: 1.2rem;
@@ -368,6 +368,10 @@ nav .sociais ul li a {
 }
 
 @media screen and (max-width: 500px) {
+	.container {
+		margin: auto 15%;
+	}
+
 	.info {
 		margin-top: 120px;
 	}
@@ -381,7 +385,7 @@ nav .sociais ul li a {
 	}
 
 	.title p {
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 
 	nav .menu {
@@ -396,8 +400,12 @@ nav .sociais ul li a {
 		display: none;
 	}
 
+	.banner {
+		margin-top: 80px;
+	}
+
 	.banner h1 {
-		font-weight: 700;
+		font-weight: 900;
 		font-size: 2.5rem;
 	}
 
@@ -408,5 +416,14 @@ nav .sociais ul li a {
 	.banner button {
 		width: 200px;
 		font-size: 1rem;
+	}
+
+
+	.abaut .content p {
+		font-size: 1rem;
+	}
+
+	.soft_skill .soft_content {
+		margin-top: 30px;
 	}
 }
