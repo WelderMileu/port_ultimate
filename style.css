@@ -252,12 +252,41 @@ nav .sociais ul li a {
 	justify-content: center;
 	padding: 15px;
 	margin: 10px;
-	border: 1px solid rgba(0, 0, 0, .3);
 	text-align: center;
 
 	width: 250px;
 	height: 70px;
 	border-radius: 100px;
+	position: relative;
+	background-color: #fff;
+
+	border: 2px solid #f1f1f1;
+}
+
+.soft_skill .soft_content ul li:before {
+	content: '';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(to left bottom,#c2007d, #008cd8);
+	left: -6px;
+	top: -6px;
+
+	border-top-left-radius: 100px;
+	z-index: -1;
+}
+
+.soft_skill .soft_content ul li:after {
+	content: '';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(to left bottom,#c2007d, #008cd8);
+	bottom: -6px;
+	right: -6px;
+
+	border-bottom-right-radius: 100px;
+	z-index: -1;
 }
 
 .soft_skill .soft_content ul li p {
@@ -381,6 +410,10 @@ nav .sociais ul li a {
 }
 
 @media screen and (max-width: 500px) {
+	nav .logo span {
+		font-size: .8rem;
+	}
+
 	.container {
 		margin: auto 15%;
 	}
@@ -424,7 +457,7 @@ nav .sociais ul li a {
 	}
 
 	.banner {
-		margin-top: 80px;
+		margin-top: 70px;
 	}
 
 	.banner h1 {
@@ -455,11 +488,10 @@ nav .sociais ul li a {
 		justify-content: center;
 		padding: 5px;
 		margin: 10px;
-		border: 1px solid gray;
 		text-align: center;
 
 		width: 90%;
-		height: 60px;
+		height: 70px;
 		border-radius: 100px;
 	}
 
