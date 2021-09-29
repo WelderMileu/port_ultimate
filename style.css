@@ -185,7 +185,7 @@ nav .sociais ul li a {
 
 	justify-content: space-around;
 	align-items: center;
-	margin-top: 90px;
+	margin-top: 60px;
 
 	margin-bottom: 40px;
 }
@@ -252,7 +252,7 @@ nav .sociais ul li a {
 	justify-content: center;
 	padding: 15px;
 	margin: 10px;
-	border: 1px solid gray;
+	border: 1px solid rgba(0, 0, 0, .3);
 	text-align: center;
 
 	width: 250px;
@@ -276,7 +276,7 @@ nav .sociais ul li a {
 	position: absolute;	
 	width: 100%;
 	text-align: left;
-	margin-top: 200px;
+	margin-top: 220px;
 	font-weight: 400;
 	color: white;
 	font-size: 1.2rem;
@@ -313,10 +313,22 @@ nav .sociais ul li a {
 	border-radius: 50px;
 }
 
+.projects .swiper .swiper-wrapper .swiper-slide .actions button:nth-child(1) {
+	border: none;
+	text-align: left;
+
+	display: flex;
+	align-items: center;
+}
+
+.projects .swiper .swiper-wrapper .swiper-slide .actions button:nth-child(1) i {
+	padding-left: 10px;
+}
+
 .projects .swiper .swiper-wrapper .swiper-slide .actions button:nth-child(2) {
-	width: 50px;
-	height: 50px;
-	font-size: 2rem;
+	width: 40px;
+	height: 40px;
+	font-size: 1.6rem;
 
 	display: flex;
 	justify-content: center;
@@ -377,10 +389,18 @@ nav .sociais ul li a {
 		margin-top: 120px;
 	}
 
+	.info .info_cards {
+		justify-content: center;
+	}
+
 	.info .info_cards .card {
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 		width: 95%;
 		padding: 25px;
+	}
+
+	.info .info_cards .card p {
+		font-size: 1.1rem;
 	}
 
 	.title h1 {
@@ -422,7 +442,7 @@ nav .sociais ul li a {
 
 
 	.abaut .content p {
-		font-size: 1rem;
+		font-size: 1.1rem;
 	}
 
 	.soft_skill .soft_content {
@@ -457,6 +477,10 @@ nav .sociais ul li a {
 	}
 
 	.abaut .avatar span {
-		font-size: 1rem;
+		font-size: 1.2rem;
+	}
+
+	.abaut {
+		margin-bottom: 120px;
 	}
 }
