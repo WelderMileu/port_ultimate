@@ -198,6 +198,7 @@ nav .sociais ul li a {
 	padding: 30px;
 
 	border-radius: 30px;
+	margin-top: 40px;
 }
 
 .info .info_cards .card .card_icon {
@@ -427,6 +428,7 @@ nav .sociais ul li a {
 	}
 
 	.info .info_cards .card {
+		margin-top: 20px;
 		margin-bottom: 40px;
 		width: 95%;
 		padding: 25px;
@@ -438,6 +440,7 @@ nav .sociais ul li a {
 
 	.title h1 {
 		font-size: 1.7rem;
+		font-weight: 900;
 	}
 
 	.title p {
@@ -461,26 +464,28 @@ nav .sociais ul li a {
 	}
 
 	.banner h1 {
-		font-size: 2.5rem;
+		font-size: 2.8rem;
 	}
 
 	.banner p {
 		font-size: 1.2rem;
+		margin-top: 10px;
 	}
 
 	.banner button {
 		width: 200px;
 		font-size: 1rem;
+		margin-top: 30px;
 	}
 
 	.banner .my_photo {
 		position: relative;
 		top: 80px;
-		left: -50px;
+		left: -60px;
 	}
 
 	.banner .my_photo img {
-		width: 100%;
+		width: 120%;
 	}
 
 	.abaut .content p {
