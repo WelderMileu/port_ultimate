@@ -417,7 +417,7 @@ nav .sociais ul li a {
 	}
 
 	.container {
-		margin: auto 15%;
+		margin: auto 12%;
 	}
 
 	.info {
@@ -482,11 +482,11 @@ nav .sociais ul li a {
 	.banner .my_photo {
 		position: relative;
 		top: 80px;
-		left: -60px;
+		left: -40px;
 	}
 
 	.banner .my_photo img {
-		width: 120%;
+		width: 100%;
 	}
 
 	.abaut .content p {
@@ -498,16 +498,8 @@ nav .sociais ul li a {
 	}
 
 	.soft_skill .soft_content ul li {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 5px;
-		margin: 10px;
-		text-align: center;
-
-		width: 90%;
+		width: 100%;
 		height: 70px;
-		border-radius: 100px;
 	}
 
 	.soft_skill .soft_content ul li p {
