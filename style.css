@@ -371,7 +371,7 @@ nav .sociais ul li a {
 	.info .info_cards .card {
 		margin-top: 20px;
 		margin-bottom: 40px;
-		width: 95%;
+		width: 90%;
 		padding: 25px;
 	}
 
@@ -380,7 +380,7 @@ nav .sociais ul li a {
 	}
 
 	.title h1 {
-		font-size: 1.7rem;
+		font-size: 2rem;
 		font-weight: 900;
 	}
 
@@ -434,10 +434,10 @@ nav .sociais ul li a {
 	}
 
 	.soft_skill .soft_content {
-		margin-top: 40px;
+		margin-top: 30px;
 	}
 
-	.soft_skill .soft_content ul li p {
+	.soft_skill .soft_content ul li {
 		font-size: 1rem;
 	}
 
