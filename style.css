@@ -214,17 +214,19 @@ nav .sociais ul li a {
 	justify-content: center;
 	align-items: center;
 
-	margin: 30px;
+	margin: 15px;
 	width: 200px;
 	text-align: center;
+	font-weight: 300;
 }
 
 .soft_skill .soft_content .soft_list ul li i {
 	font-size: 3rem;
 	margin-bottom: 30px;
 
-	border: 3px solid gray;
 	color: gray;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .2),
+				-2px -1px 5px rgba(0, 0, 0, .2);
 
 	width: 100px;
 	height: 100px;
@@ -439,6 +441,7 @@ nav .sociais ul li a {
 
 	.soft_skill .soft_content ul li {
 		font-size: 1rem;
+		margin-top: 60px !important;
 	}
 
 	.abaut .avatar img {
