@@ -107,12 +107,12 @@ nav .sociais ul li a {
 .banner .my_photo {
 	position: absolute;
 	top: -50px;
-	right: 0;
+	right: -100px;
 	z-index: -1;
 }
 
 .banner .my_photo img {
-	width: 600px;
+	width: 80%;
 }
 
 .info {
@@ -210,13 +210,13 @@ nav .sociais ul li a {
 
 .soft_skill .soft_content .soft_list .content-items .items {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	flex-direction: column;
+	justify-content: space-evenly;
 	align-items: center;
 
 	margin: 10px;
-	width: 250px;
-	height: 100px;
+	width: 150px;
+	height: 170px;
 	text-align: center;
 	font-weight: 300;
 
@@ -229,13 +229,12 @@ nav .sociais ul li a {
 
 .soft_skill .soft_content .soft_list .content-items .items img {
 	width: 70px;
-	padding-left: 10px;
 }
 
 .soft_skill .soft_content .soft_list .content-items .items p {
 	font-weight: 400;
 	color: gray;
-	padding-right: 30px;
+	font-size: 1.2rem;
 }
 
 .projects {
@@ -426,6 +425,7 @@ nav .sociais ul li a {
 		position: relative;
 		top: 80px;
 		left: -40px;
+		right: 0;
 	}
 
 	.banner .my_photo img {
