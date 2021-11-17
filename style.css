@@ -215,26 +215,20 @@ nav .sociais ul li a {
 	align-items: center;
 
 	margin: 10px;
-	width: 150px;
-	height: 170px;
+	width: 100px;
+	height: 100px;	
 	text-align: center;
 	font-weight: 300;
 
 	background-color: #fff;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, .2),
-				-2px -1px 5px rgba(0, 0, 0, .2);
-
-	border-radius: 15px;
+	border: 1px solid gray;
+	border-radius: 100px;
 }
 
-.soft_skill .soft_content .soft_list .content-items .items img {
-	width: 70px;
-}
-
-.soft_skill .soft_content .soft_list .content-items .items p {
-	font-weight: 400;
+.soft_skill .soft_content .soft_list .content-items .items i {
+	font-size: 4rem;
 	color: gray;
-	font-size: 1.2rem;
+
 }
 
 .projects {
